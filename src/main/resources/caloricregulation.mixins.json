@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "jackiecrazy.caloricregulation.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "caloricregulation.refmap.json",
+  "mixins": [
+    "NeverEdibleMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
